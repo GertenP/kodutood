@@ -1,5 +1,5 @@
-function balanced(s) {
-  const xCount = (s.match(/x/g) || []).length;
-  const yCount = (s.match(/y/g) || []).length;
-  return xCount === yCount;
+function balanced(sõne) {
+  const xLugemine = (sõne.match(/x/g) || []).length;
+  const yLugemine = (sõne.match(/y/g) || []).length;
+  return xLugemine === yLugemine;
 }
