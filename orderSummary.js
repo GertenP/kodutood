@@ -38,8 +38,8 @@ function orderSummary(){
         console.log(tellimus["rows"][i]["name"])
         console.log(tellimus["rows"][i]["amount"])
         console.log(tellimus["rows"][i]["price"])
-        console.log(tellimus["rows"][i]["price"] * tellimus["rows"][i]["price"])
-        summa += tellimus["rows"][i]["price"] * tellimus["rows"][i]["price"]
+        console.log(tellimus["rows"][i]["amount"] * tellimus["rows"][i]["price"])
+        summa += tellimus["rows"][i]["amount"] * tellimus["rows"][i]["price"]
 
     }
     console.log(summa * 1.2)
